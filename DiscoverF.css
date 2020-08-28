@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.nav{
+	background-color: #000;
+	height: 60px;
+	width: 100%;
+	padding: 5px;
+}
+
+.container_nav{
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 150px;
+	margin-right: 10px;
+	list-style-type: none;
+}
+
+.container_nav ul li{
+	display: inline-block;
+	margin-right: 50px;
+
+}
+
+.container_logreg ul{
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 150px;
+	margin-left: 10px;
+	list-style-type: none;
+}
+
+.container_logreg ul li{
+	display: inline-block;
+	margin-right: 10px;
+	color: #fff;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	padding: 5px 15px;
+	color: #fff;
+	font-size: 18px;
+	border: 1px solid transparent;
+}
+
+.aktif{
+	color: #000;
+	border: 1px solid transparent;
+	padding: 5px 15px;
+	font-size: 18px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.nav ul li a:hover{
+	color: #000;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.dropdown{
+	color: #fff;
+	border: 1px solid transparent;
+	padding: 5px 15px;
+	font-size: 18px;
+	border-radius: 4px;
+}
+ .dropdown:hover{
+ 	color: #000;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.sub-menu{
+	display: none;
+	background-color: black;
+}
+
+.sub-menu ul{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-left: 20px;
+
+}
+
+.nav ul li:hover .sub-menu{
+	display: block;
+	position: absolute;
+	margin-top: 6px;
+	margin-left: -30px;
+} 
+
+
+.nav ul li:hover .sub-menu ul{
+	display: block;
+	margin-top: 10px;
+}
+
+.nav ul li:hover .sub-menu ul a{
+}
+
+.sub-menu-aktif a{
+	color: #000;
+	background-color: #fff;
+}
+														/*content*/
+.main-container{
+	height: 2116px;
+	width: 100%;
+}
+
+.Box-1{
+	background-image: url(gambar/Discover-F.jpg);
+	background-size: cover;
+	background-position: center center;
+	height: 400px;
+	width: 100%;
+	background-color: green;
+	border: 3px solid darkgreen;
+}
+.Box-2{
+	height: 350px;
+	width: 100%;
+	background-color: #fff;
+	border: 15px solid silver;
+}
+
+.Box-3{
+	height: 650px;
+	width: 100%;
+	background-color: red;
+	border: 15px solid maroon;
+}
+
+.Box-4{
+	height: 375px;
+	width: 100%;
+	background-color: yellow;
+	border: 15px solid gold;
+}
+
+.footer{
+	height: 340px;
+	width: 100%;
+	background-color: black;
+	border: 15px solid grey;
+}
+
+.Title{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0px auto;
+	height: 25px;
+	background-color: rgb(0,155,0);
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
