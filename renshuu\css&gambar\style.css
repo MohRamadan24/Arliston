@@ -1,0 +1,213 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+/*Background gambar*/
+/*body{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(gambar/Back_Home.jpg);
+	width: 100%;
+	background-size: cover;
+	background-position: cover;
+	box-sizing: border-box;
+}*/
+
+
+/*Bar Navigasi*/
+.logo{
+	display: inline-block;
+	/*marght: 10px;*/
+	align-items: center;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+.container-nav{
+	height: 85px;
+	width: auto;
+	/*padding: 50px;*/
+	background-color: rgba(42, 38, 60,0);
+	background-size: cover;
+	background-position: cover;
+}
+
+.left-nav{
+	list-style-type: none;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.right-nav{
+	list-style-type: none;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 100px;
+	margin-left: 30px;
+}
+
+#main-nav li{
+	display: inline-block;
+	margin-right: 10px;
+	align-items: center;
+	margin-top: 22px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+#main-nav li a{
+	text-decoration: none;
+	color: rgb(158, 168, 183);
+	border-bottom: 4px solid transparent;
+	font-size: 20px;
+	line-height: 44px;
+	padding: 10px 15px;
+	height: 40px;
+}
+
+.active{
+	border-bottom: 4px solid #7fff00;
+	color: rgb(0,200,0);
+	font-size: 20px;
+	line-height: 44px;
+	padding: 0px 15px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: 0 0 8px 4px rgba(124, 252, 0, 0.2);
+}
+
+.dropdwn{
+	border-bottom: 4px solid transparent;
+	color: rgb(158, 168, 183);
+	/*color: rgb(141, 148, 166);*/
+	font-size: 20px;
+	line-height: 44px;
+	padding: 0px 15px;
+	height: 40px;
+}
+
+#main-nav li a:hover{
+	text-decoration: none;
+	color: rgb(0,200,0);
+	border-bottom: 4px solid #7fff00;
+	font-size: 20px;
+	line-height: 44px;
+	padding-top: 8px;
+	padding-bottom: 12px;
+	padding-right: 15px;
+	padding-left: 15px;
+	height: 40px;
+	
+}
+
+.container-nav ul ul{
+	display: none;
+	position: absolute;
+	background-color: rgba(34, 36, 60,0.5);
+}
+
+.container-subnav ul li{
+	margin: 10px 10px;
+}
+
+.dropdwn:hover{
+	text-decoration: none;
+	color: rgb(0,200,0);
+	border-bottom: 4px solid #7fff00;
+}
+
+.dropdwn:hover ul{
+	display: block;
+	margin-top: 2px;
+	margin-left: -10px;
+	width: 240px;
+	text-align: center;
+}
+
+.subnav{
+	padding-top: 5px;
+}
+
+.user-id{
+	color: red;
+	/*border-bottom: 4px solid transparent;
+	color: rgb(158, 168, 183);
+	color: rgb(141, 148, 166);
+	font-size: 20px;
+	line-height: 44px;
+	padding: 0px 15px;
+	height: 40px;*/
+}
+
+														/*content*/
+
+
+.main-container{
+}
+
+.Box-1{
+	background-image:linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0.6)),url(gambar/Back_Home.jpg);
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	height: 1000px;
+}
+/*Box Navigasi*/
+.Box-2{
+	/*height: 350px;
+	width: auto;
+	background-color: #fff;*/
+	width: auto;
+	/*height: 324px;*/
+	height: 60px; 
+	padding-top: 80px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #000;
+}
+
+.title-box{
+	height: auto;
+	width: auto;
+	/*font-family: harlow solid italic;*/
+	margin-top: 230px;
+}
+
+.title-box ul{
+	align-items: center;
+	margin: 0px auto;
+	list-style-type: none;
+	height: auto;
+	width: 260.11px;
+
+}
+
+.tittle-box ul li{
+	margin: 10px auto;
+}
+
+.title-box ul li a{ 
+	text-decoration: none;
+	font-size: 78px;
+	height: 80px;
+	width: auto;
+	line-height: 80px;
+	color: silver;
+	align-items: center;
+}
+
+.footer-box{
+	height: 30px;
+	width: 100%;
+	background-color: rgb(31, 36, 48);
+	color: rgb(141, 148, 166);
+	word-spacing: 3px;
+}
+
+.footer{
+	padding: 6px 30px;
+	font-size: 14px;
+}
